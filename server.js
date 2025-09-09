@@ -22,7 +22,8 @@ app.get(`${BASE_API_PATH}/users`, (req, res) => {
   res.json([
     { id: 1, name: "Alice" },
     { id: 2, name: "Bob" },
-    { id: 3, name: "Shakti" }
+    { id: 3, name: "Shakti" },
+    { id: 4, name: "Mohan" }
   ]);
 });
 
