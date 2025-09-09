@@ -3,7 +3,7 @@ os: linux
 files:
   - source: /
     destination: /var/www/html/goequipme-website
-    overwrite: false   # Only update files that exist in GitHub
+    overwrite: true   # Only update files that exist in GitHub
 hooks:
   BeforeInstall:
     - location: scripts/stop_server.sh
