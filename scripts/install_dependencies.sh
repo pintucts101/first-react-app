@@ -1,3 +1,3 @@
 #!/bin/bash
-cd /var/www/html/goequipme-website
+cd /var/www/html/goequipme-app
 npm install

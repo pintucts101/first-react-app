@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /var/www/html/goequipme-website
+    destination: /var/www/html/goequipme-app
     overwrite: true   # Only update files that exist in GitHub
 hooks:
   BeforeInstall:
