@@ -32,7 +32,8 @@ app.get(`${BASE_API_PATH}/products`, (req, res) => {
   res.json([
     { id: 1, name: "Laptop", price: 1200 },
     { id: 2, name: "Phone", price: 800 },
-    { id: 3, name: "cell", price: 500 }
+    { id: 3, name: "cell", price: 500 },
+    { id: 4, name: "desktop", price: 1500 }
   ]);
 });
 
