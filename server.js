@@ -33,8 +33,8 @@ app.get(`${BASE_API_PATH}/products`, (req, res) => {
     { id: 1, name: "Laptop", price: 1200 },
     { id: 2, name: "Phone", price: 800 },
     { id: 3, name: "cell", price: 500 },
-    { id: 4, name: "desktop", price: 1500 },
-    { id: 5, name: "cpu", price: 150 }
+    // { id: 4, name: "desktop", price: 1500 },
+    // { id: 5, name: "cpu", price: 150 }
   ]);
 });
 
